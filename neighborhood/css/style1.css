@@ -6,6 +6,12 @@ body {
   margin-top: 75px;
 }
 
+a:hover {
+color: #fff;
+background-color: #000;
+text-decoration:
+}
+
 img {
   max-width: 100%;
 }
