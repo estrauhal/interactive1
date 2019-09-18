@@ -31,7 +31,8 @@ body {
 }
 
 a {
-  color: #f00;
+  color: #000;
+  text-decoration: none;
 }
 
 li {
@@ -40,11 +41,11 @@ li {
 
 
 h1 {
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-family: "Helvetica Neue";
   font-size: 72px;
   color: #000;
   letter-spacing: -0.5px;
-  line-height: 85%;
+  line-height: 90%;
   font-weight: bold;
 }
 

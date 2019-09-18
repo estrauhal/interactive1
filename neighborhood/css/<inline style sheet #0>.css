@@ -1,0 +1,101 @@
+@font-face {
+ font-family:'BuenosAiresWeb';
+ src:url(/dist/fonts/BuenosAiresWeb-Regular.eot);
+ src:url(/dist/fonts/BuenosAiresWeb-Regular.eot?#iefix) format('embedded-opentype') ,
+ url(/dist/fonts/BuenosAiresWeb-Regular.woff) format('woff') ,
+ url(/dist/fonts/BuenosAiresWeb-Regular.woff2) format('woff2');
+ font-weight:400;
+ font-style:normal;
+ font-stretch:normal;
+ unicode-range:U +000D-FB03
+}
+html,
+body {
+ font-family:'BuenosAiresWeb';
+ margin:0;
+ padding:0;
+ text-align:center;
+ background:#fff
+}
+.listings {
+}
+.job-ad {
+ border:1px solid #e8e8e8;
+ height:628px
+}
+.logo {
+ display:block;
+ border-bottom:1px solid #e8e8e8;
+ padding:20px 0
+}
+.logo img {
+ width:120px;
+ height:auto
+}
+.job-listing {
+ padding:20px;
+ display:block;
+ text-decoration:none;
+ color:#000;
+ border-bottom:1px solid #e8e8e8;
+ text-align:center
+}
+.job-listing a {
+ display:block;
+ margin:0 auto;
+ text-decoration:none;
+ color:#000;
+ width:266px
+}
+.image-wrap {
+ display:inline-block;
+ vertical-align:top;
+ width:64px;
+ border:1px solid #e8e8e8;
+ margin-right:20px
+}
+.image-wrap img {
+ vertical-align:middle;
+ display:inline-block;
+ width:100%;
+ height:auto
+}
+.listing-info {
+ display:inline-block;
+ text-align:left;
+ vertical-align:top;
+ width:180px
+}
+.listing-info p {
+ margin:0
+}
+.listing-info p {
+ font-size:16px;
+ font-weight:normal;
+ color:#000;
+ line-height:1.4
+}
+.listing-info p {
+ white-space:nowrap;
+ overflow:hidden;
+ text-overflow:ellipsis
+}
+.listing-info p.location {
+ font-size:14px;
+ color:#aaaaaf
+}
+.site-link {
+ padding:20px
+}
+.site-link a {
+ width:266px;
+ height:44px;
+ line-height:44px;
+ background:#e5e5e5;
+ text-decoration:none;
+ color:#000;
+ display:inline-block;
+ text-align:center
+}
+.site-link a:hover {
+}
