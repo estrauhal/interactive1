@@ -1,10 +1,12 @@
 
 body {
-  background: #eee;
-  margin-left: 150px;
-  margin-right: 150px;
+  background: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 75px;
 }
+
+
 
 a:hover {
 color: #fff;
@@ -14,20 +16,32 @@ text-decoration:
 p {
   color: #111
 
+/* this is just some font style crap */
 
 }
 img {
   max-width: 100%;
+  min-width: 100%;
 }
 
 body {
-  font-family: "Helvetica Neue";
-  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
 }
+
+a {
+  color: #f00;
+}
+
+li {
+  font-style: oblique;
+}
+
 
 h1 {
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 72px;
+  color: #000;
   letter-spacing: -0.5px;
   line-height: 85%;
   font-weight: bold;
