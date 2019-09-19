@@ -50,6 +50,22 @@ li {
   font-style: oblique;
 }
 
+img {
+  /* filter:blur(50px); */
+  /* filter:grayscale(100%); */
+  filter:hue-rotate(0deg) grayscale(0%);
+  /* filter: contrast(50%); */
+}
+
+img:hover {
+  /* filter: contrast(100%); */
+  /* filter:grayscale(0%); */
+  filter:hue-rotate(100deg) contrast(5);
+}
+
+  h2:hover{
+    filter:blur(5px);
+  }
 
 h1 {
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
