@@ -15,8 +15,9 @@ body {
 
 a:hover {
 color: #fff;
+/* filter:hue-rotate(100deg); */
 background-color: #f00;
-text-decoration:
+
 }
 
 img {
@@ -25,6 +26,8 @@ img {
   margin-right: auto;
   width: 95%;
 }
+
+
 
 p {
   color: #111
@@ -53,18 +56,19 @@ li {
 img {
   /* filter:blur(50px); */
   /* filter:grayscale(100%); */
-  filter:hue-rotate(0deg) grayscale(0%);
+  /* filter:hue-rotate(0deg) grayscale(0%); */
   /* filter: contrast(50%); */
+  filter:sepia(30%) saturate(190%);
 }
 
 img:hover {
   /* filter: contrast(100%); */
   /* filter:grayscale(0%); */
-  filter:hue-rotate(100deg) contrast(5);
+  /* filter:hue-rotate(100deg) contrast(5); */
 }
 
   h2:hover{
-    filter:blur(5px);
+    /* filter:blur(5px); */
   }
 
 h1 {

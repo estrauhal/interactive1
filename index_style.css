@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 a:hover {
 color: #fff;
 background-color: #f00;
@@ -21,9 +23,39 @@ p {
 
 }
 img {
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 75%;
+  /* margin-top: -50px; */
+  min-width: 75%;
 }
+
+
+
+img {
+  /* filter:contrast(20) hue-rotate(200deg) contrast(20); */
+  animation: changeColor 4s infinite;
+}
+
+@-webkit-keyframes changeColor {
+    0%   { -webkit-filter: hue-rotate(0deg); }
+    100% { -webkit-filter: hue-rotate(360deg); }
+}
+@-moz-keyframes changeColor {
+    0%   { -moz-filter: hue-rotate(0deg); }
+    100% { -moz-filter: hue-rotate(360deg); }
+}
+@-o-keyframes changeColor {
+    0%   { -o-filter: hue-rotate(0deg); }
+    100% { -o-filter: hue-rotate(360deg); }
+}
+@keyframes changeColor {
+    0%   { filter: hue-rotate(0deg)contrast(100%)saturate(100); }
+    100% { filter: hue-rotate(360deg)contrast(100%)saturate(0); }
+
+}
+
+
+
+
 
 body {
   font-family: 'Karla', sans-serif;
