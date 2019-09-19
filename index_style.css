@@ -23,9 +23,9 @@ p {
 
 }
 img {
-  max-width: 100%;
+  max-width: 75%;
   /* margin-top: -50px; */
-  min-width: 100%;
+  min-width: 75%;
 }
 
 
@@ -34,22 +34,22 @@ img {
   /* filter:contrast(20) hue-rotate(200deg) contrast(20); */
   animation: changeColor 5s infinite;
 }
-/*
+
 @-webkit-keyframes changeColor {
     0%   { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
-    50%  { -webkit-filter: hue-rotate(360deg)contrast(500%)saturate(100000%); }
+    50%  { -webkit-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
     100% { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
   }
 @-moz-keyframes changeColor {
     0%   { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
-    50%  { -moz-filter: hue-rotate(360deg)contrast(500%)saturate(100000%); }
+    50%  { -moz-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
     100% { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
   }
 @-o-keyframes changeColor {
     0%   { -o-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
-    50%  { -o-filter: hue-rotate(360deg)contrast(500%)saturate(100000%); }
+    50%  { -o-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
     100% { -o-filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
-  } */
+  }
 @keyframes changeColor {
     0%   { filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
     50%  { filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
