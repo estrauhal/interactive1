@@ -48,8 +48,9 @@ img {
     100% { -o-filter: hue-rotate(360deg); }
 }
 @keyframes changeColor {
-    0%   { filter: hue-rotate(0deg)contrast(100%)saturate(100); }
-    100% { filter: hue-rotate(360deg)contrast(100%)saturate(0); }
+    0%   { filter: hue-rotate(0deg)contrast(0%)saturate(0); }
+    50%  { filter: hue-rotate(360deg)contrast(100%)saturate(900); }
+    100% { filter: hue-rotate(0deg)contrast(0%)saturate(0); }
 
 }
 
