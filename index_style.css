@@ -31,8 +31,7 @@ img {
 
 
 img {
-  /* filter:contrast(20) hue-rotate(200deg) contrast(20); */
-  animation: changeColor 7s infinite;
+  animation: changeColor 5s infinite;
 }
 
 @-webkit-keyframes changeColor {

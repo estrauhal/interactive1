@@ -1,5 +1,5 @@
 
-body {
+body:not(img){
   background: #fff;
   margin-left: 100px;
   margin-right: 100px;
@@ -21,16 +21,16 @@ background-color: #f00;
 }
 
 img {
+  /* margin-left: -100px; */
+  margin-right: -100px;
+  max-width: 100%;
+  object-fit: cover;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
+  height: auto;
 }
 
-
-
 p {
-  color: #111
+  color: #000
 
 /* this is just some font style crap */
 
@@ -58,13 +58,13 @@ li {
   font-style: oblique;
 }
 
-img {
+/* img {
   /* filter:blur(50px); */
   /* filter:grayscale(100%); */
   /* filter:hue-rotate(0deg) grayscale(0%); */
   /* filter: contrast(50%); */
   /* filter:sepia(30%) saturate(190%); */
-}
+} */
 
 img:hover {
   /* filter: contrast(100%); */
