@@ -41,8 +41,13 @@ p {
 } */
 
 body {
+  color: #000;
   font-family: 'Karla', sans-serif;
   font-size: 24px;
+}
+
+p {
+  color: #000;
 }
 
 a {
@@ -58,7 +63,7 @@ img {
   /* filter:grayscale(100%); */
   /* filter:hue-rotate(0deg) grayscale(0%); */
   /* filter: contrast(50%); */
-  filter:sepia(30%) saturate(190%);
+  /* filter:sepia(30%) saturate(190%); */
 }
 
 img:hover {
@@ -83,5 +88,5 @@ h1 {
 h2 {
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 36px;
-  line-height: 125%;
+  line-height: 100%;
 }
