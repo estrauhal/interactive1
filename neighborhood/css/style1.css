@@ -1,10 +1,7 @@
 
-body:not(img){
+body{
   background: #fff;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 75px;
-  margin-bottom: 100px
+
 
 }
 
@@ -21,12 +18,11 @@ background-color: #f00;
 }
 
 img {
-  /* margin-left: -100px; */
-  margin-right: -100px;
+
   max-width: 100%;
   object-fit: cover;
-  display: block;
-  height: auto;
+  /* display: block; */
+  /* height: auto;
 }
 
 p {
@@ -48,6 +44,8 @@ body {
 
 p {
   color: #000;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 a {
@@ -56,6 +54,8 @@ a {
 
 li {
   font-style: oblique;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* img {
@@ -83,10 +83,14 @@ h1 {
   letter-spacing: -0.5px;
   line-height: 85%;
   font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 h2 {
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 36px;
   line-height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
 }
