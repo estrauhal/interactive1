@@ -26,6 +26,12 @@ li {
   margin-right: 100px;
 }
 
+img {
+  -webkit-filter: saturate(1.5);
+  filter:saturate(1.5);
+}
+
+
 h1 {
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 72px;
