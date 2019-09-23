@@ -18,6 +18,7 @@ p {
 
 a {
   color: #f00;
+
 }
 
 li {
@@ -29,6 +30,8 @@ li {
 img {
   -webkit-filter: saturate(1.5);
   filter:saturate(1.5);
+  -moz-filter:saturate(1.5);
+  -o-filter:saturate(1.5);
 }
 
 
