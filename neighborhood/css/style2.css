@@ -1,19 +1,9 @@
-
-    body,
-    img {
-  width: 100%;
-  margin: 0;
-}
-body {
-  color: #000;
-  font-family: 'Karla', sans-serif;
-  font-size: 24px;
+h1 {
+  background-color: black;
 }
 
-p {
-  color: #000;
-  margin-left: 100px;
-  margin-right: 100px;
+div {
+  background-color: black;
 }
 
 a {
@@ -21,84 +11,34 @@ a {
 
 }
 
-a:hover {
-color: #fff;
-background-color: #f00;
-text-decoration:
-}
-
-li {
-  font-style: oblique;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-img {
-  -webkit-filter: saturate(1.5);
-  filter:saturate(1.5);
-  -moz-filter:saturate(1.5);
-  -o-filter:saturate(1.5);
-}
-
-
 h1 {
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-  font-size: 72px;
-  color: #000;
-  letter-spacing: -0.5px;
-  line-height: 85%;
-  font-weight: bold;
   margin-left: 100px;
-  margin-right: 100px;
+
+  color: #fff;
+}
+
+p {
+  background-color: white;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 h2 {
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-  font-size: 36px;
-  line-height: 100%;
+  margin-left: 100px;
+  color: #fff;
+  background-color: #000;
+}
+
+p {
+  color: #000;
+}
+
+li {
+  font-style: oblique
+  color: white;
   margin-left: 100px;
   margin-right: 100px;
-}
-
-.mobile {
-  display: block;
-  margin: 0 auto;
-}
-
-.desktop {
-  display: none;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.image__background {
-  background-size: cover;
-  background-repeat: repeat;
-  width: 100%;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-
-.desktop > a {
-  display: inline-block;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.desktop > .image__background {
-  width: 100%;
-}
-
-.mobile > .image__background {
-  width: 100%;
-}
-
-@media screen and (min-width: 630px) {
-  .mobile {
-    display: none;
-  }
-  .desktop {
-    display: block;
-  }
 }
