@@ -31,7 +31,9 @@ img {
 
 
 img {
-  animation: changeColor 5s infinite;
+  animation: changeColor 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
 @-webkit-keyframes changeColor {
