@@ -6,6 +6,9 @@
 }
 body {
   background: black;
+  background-image: url("https://media0.giphy.com/media/SasDDqOSRclNu/giphy.gif");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
   font-size: 125px;
   font-family: Helvetica Neue;
 }
