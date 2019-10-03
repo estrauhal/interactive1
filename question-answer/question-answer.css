@@ -34,9 +34,12 @@ p {
    background: #FF6347;
    background-image: url("https://media1.giphy.com/media/dKZRRvQhrT2HS/source.gif");
    background-size: 300px;
-   background-repeat: no-repeat;
-   background-position: bottom right;
+   background-repeat: repeat;
   }
+mark {
+  marl color: #FF6347;
+}
+
   #answer {
     display: flex;
     justify-content: center;
