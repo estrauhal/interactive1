@@ -32,6 +32,10 @@ p {
 @media (max-width: 550px) {
   body {
    background: #FF6347;
+   background-image: url("https://media1.giphy.com/media/dKZRRvQhrT2HS/source.gif");
+   background-size: 300px;
+   background-repeat: no-repeat;
+   background-position: bottom right;
   }
   #answer {
     display: flex;
@@ -41,6 +45,7 @@ p {
     color: black;
     width: 100vw;
     height: 100vh;
+
   }
   #question {
     display: none;
