@@ -36,9 +36,6 @@ p {
    background-size: 300px;
    background-repeat: repeat;
   }
-mark {
-  marl color: #FF6347;
-}
 
   #answer {
     display: flex;
