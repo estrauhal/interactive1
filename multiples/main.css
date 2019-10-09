@@ -8,13 +8,10 @@ body {
     background: black;
 }
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 100%;
-  height: auto;
+    max-width: 100%;
+    max-height: 100%
+    object-fit: cover;
+
 }
 #desktop {
     display: inline;
@@ -35,6 +32,8 @@ img {
         color: white;
     }
     #desktop,
+    #other,
+    #moreother,
     #mobile,
     #print {
         display: none;
@@ -50,11 +49,52 @@ img {
         color: black;
     }
     #desktop,
+    #other,
+    #moreother,
     #tablet,
     #print {
         display: none;
     }
+
+
+/*moreother*/
+    @media (max-width: 900px) {
+        body {
+            background: white;
+        }
+        #moreother {
+            display: inline;
+            color: black;
+        }
+
+        #desktop,
+        #mobile,
+        #other,
+        #tablet,
+        #print {
+            display: none;
+        }
 }
+
+/*other*/
+    @media (max-width: 300px) {
+        body {
+            background: white;
+        }
+        #other {
+            display: inline;
+            color: black;
+        }
+
+        #desktop,
+        #mobile,
+        #moreother,
+        #tablet,
+        #print {
+            display: none;
+        }
+}
+
 /* print */
 @media print {
     body {
@@ -65,6 +105,8 @@ img {
         color: black;
     }
     #desktop,
+    #other,
+    #moreother,
     #tablet,
     #mobile {
         display: none;
