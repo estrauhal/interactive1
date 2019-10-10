@@ -5,25 +5,54 @@
     box-sizing: border-box;
 }
 body {
-    background: black;
+    background: white;
 }
 img {
     max-width: 100%;
     max-height: 100%
     object-fit: cover;
 
+    animation: changeColor 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
+
+
+@-webkit-keyframes changeColor {
+    0%   { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { -webkit-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { -webkit-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+  }
+@-moz-keyframes changeColor {
+    0%   { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { -moz-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { -moz-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+  }
+@-o-keyframes changeColor {
+    0%   { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { -o-filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
+    100% { -o-filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+  }
+@keyframes changeColor {
+    0%   { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+    50%  { filter: hue-rotate(360deg)contrast(200%)saturate(10000%); }
+    100% { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
+
+}
+
 #desktop {
     display: inline;
     color: white;
 }
 #tablet,
 #mobile,
+#other,
+#moreother,
 #print {
     display: none;
 }
 /* tablet */
-@media (min-width: 900px) and (max-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1000px) {
     body {
         background: white;
     }
@@ -40,7 +69,7 @@ img {
     }
 }
 /* mobile */
-@media (max-width: 900px) {
+@media (max-width: 900px){
     body {
         background: white;
     }
@@ -58,7 +87,7 @@ img {
 
 
 /*moreother*/
-    @media (max-width: 670px) and (min-width: 600px){
+    @media (max-width: 700px) and (min-width: 600px){
         body {
             background: white;
         }
