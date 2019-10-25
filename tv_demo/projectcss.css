@@ -1,0 +1,29 @@
+img {
+max-width: 1444px;
+height:auto;
+position: absolute;
+}
+
+
+
+#tv {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#sky {
+  z-index: -3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#gifcomp {
+  top: 0;
+  left: 0;
+z-index: 0;
+position: absolute;
+
+}
