@@ -7,7 +7,7 @@
 body {
   color: #fff;
   font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #000;
 }
 
@@ -18,28 +18,39 @@ p {
 }
 
 a {
-  color: #f00;
+  color: #fff;
+
 
 }
 
 a:hover {
 color: #fff;
-background-color: #f00;
+background-color: #ccc;
 text-decoration:
 }
 
-li {
+ul {
+  text-align: center;
+ font-size: 48px;
+  list-style-type:none;
   font-style: oblique;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
-/* img {
-  -webkit-filter: saturate(1.5);
-  filter:saturate(1.5);
-  -moz-filter:saturate(1.5);
-  -o-filter:saturate(1.5);
-} */
+img {
+  position: relative;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.xbox {
+  position: absolute;
+  margin-top: -80%;
+  margin-left: 10%;
+}
 
 
 h1 {
@@ -49,16 +60,17 @@ h1 {
   letter-spacing: -0.5px;
   line-height: 85%;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 25px;
   margin-right: 50px;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-size: 36px;
+  text-align: center;
   line-height: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 .mobile {
