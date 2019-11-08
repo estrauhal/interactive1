@@ -1,0 +1,167 @@
+
+body {
+  background: #000;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 75px;
+  margin-bottom: 1300px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  z-index: auto;
+  color: #fff;
+  font-size: 48px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 36pt;
+
+}
+
+#introtext {
+
+  top: ;
+  left: 15%
+
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-style: bold;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom:30px;
+
+}
+
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 300px 200px;
+  grid-gap: 20px 40px;
+} */
+
+
+.square {
+
+  border-width: thick;
+  fill: none;
+  border: 1px solid white;
+
+}
+
+img {
+  display: auto;
+
+
+  max-height: 100%;
+  z-index: -10;
+  max-width: 100%;
+  width: 200px;
+
+}
+
+#next {
+  position: relative;
+  top: 1100px;
+  left: 60%;
+}
+
+#nexttext {
+  position: relative;
+  top: 1100px;
+  left: 50%;
+}
+
+#6years {
+position: absolute;
+max-width: 100%;
+max-height: 100%;
+width: 30%;
+top: 200px;
+left: 60%;
+
+
+}
+
+#content {
+  position: absolute;
+  z-index: 1;
+width: 45%;
+left: 35px;
+top: 300px;
+}
+
+#content2 {
+position: absolute;
+  width: 60%;
+  top: 750px;
+  left: 22%;
+}
+
+#square1 {
+
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: -100;
+      /* margin-left: -100px;
+      margin-right: -100px; */
+
+      background-color: #000;
+
+}
+#bigbox {
+  position: relative;
+  top: 250px;
+  width: 40%;
+  left: 0%;
+}
+
+#bigbox2 {
+  top: 700px;
+  position: absolute;
+  left: 15%;
+  width: 60%;
+
+  overflow:hidden;
+
+}
+
+.bigbox {
+  z-index: 0;
+  width: 50%;
+  position: absolute;
+overflow:hidden;
+}
+
+.xbox {
+  position: absolute;
+  top: 250px;
+  left: 53%;
+  width: 30%;
+  overflow:hidden;
+
+
+
+}
