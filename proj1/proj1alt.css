@@ -4,19 +4,56 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 75px;
-  margin-bottom: 1300px;
-  padding: 0px;
+  margin-bottom: 0px;
   overflow-x: hidden;
-
+  padding: 0;
+  /* overflow: hidden; */
 }
+
+
 
 h1 {
   font-family: 'Work Sans', sans-serif;
   z-index: auto;
   color: #fff;
   font-size: 48px;
-
+  margin-right: -1000px;
 }
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  z-index: 1;
+  color: #fff;
+  font-size: 36px;
+position: absolute;
+top: 320px;
+left: 70%;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  z-index: 1;
+  color: #fff;
+  font-size: 16px;
+position: absolute;
+max-width: 20em;
+top: 230px;
+left: 30%;
+}
+
+h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  z-index: -1;
+  color: #fff;
+  font-size: 16px;
+position: relative;
+max-width: 20em;
+top: 111px;
+left: 50%;
+}
+
 
 a {
   text-decoration: none;
@@ -36,8 +73,9 @@ h2 {
 
 #introtext {
 
-  top: ;
-  left: 15%
+top: ;
+left: 15%;
+margin-right: -1000px;
 
 }
 
@@ -52,15 +90,6 @@ p {
 
 }
 
-
-/* .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 200px 300px 200px;
-  grid-gap: 20px 40px;
-} */
-
-
 .square {
 
   border-width: thick;
@@ -71,51 +100,63 @@ p {
 
 img {
   display: auto;
-
+overflow: hidden;
 
   max-height: 100%;
   z-index: -10;
   max-width: 100%;
   width: 200px;
-
+  height: auto;
 }
 
 #next {
   position: relative;
-  top: 1100px;
-  left: 60%;
+  top: -120px;
+  left: 0%;
 }
 
 #nexttext {
   position: relative;
-  top: 1100px;
-  left: 50%;
+  top: -140px;
+  left: 0%;
 }
 
-#6years {
+#back {
+  position: relative;
+  top: -120px;
+  left: 0%;
+}
+
+#backtext {
+  position: relative;
+  top: -140px;
+  left: 0%;
+  overflow-x: hidden;
+}
+
+
+
+#ernest{
 position: absolute;
-max-width: 100%;
-max-height: 100%;
-width: 30%;
+width: 20%;
 top: 200px;
-left: 60%;
-
-
+left: 70%;
 }
+
+
 
 #content {
-  position: absolute;
-  z-index: 1;
-width: 45%;
-left: 35px;
-top: 300px;
+  position: relative;
+  z-index: -1;
+width: 60%;
+top: 100px;
 }
 
 #content2 {
-position: absolute;
+  top: 150px;
+  position: relative;
+  left: 45%;
   width: 60%;
-  top: 750px;
-  left: 22%;
 }
 
 #square1 {
@@ -132,19 +173,18 @@ position: absolute;
 
 }
 #bigbox {
-  position: relative;
+  position: absolute;
   top: 250px;
-  width: 40%;
-  left: 0%;
+  left: 15%;
 }
 
 #bigbox2 {
-  top: 700px;
-  position: absolute;
-  left: 15%;
+  top: -60px;
+  position: relative;
+  left: 60%;
   width: 60%;
 
-  overflow:hidden;
+  overflow-x:hidden;
 
 }
 
@@ -157,9 +197,9 @@ overflow:hidden;
 
 .xbox {
   position: absolute;
-  top: 250px;
-  left: 53%;
-  width: 30%;
+  top: 20%;
+  left: 67%;
+  width: 20%;
   overflow:hidden;
 
 
