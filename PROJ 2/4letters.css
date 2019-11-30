@@ -19,8 +19,11 @@ body {
   background: var(--negativeColor);
   height: 1000px;
   width: 100%;
-  padding:50px;
+  padding: 0px;
+  padding-top: 40px;
+
   overflow:hidden;
+
 }
 
 a {
@@ -76,6 +79,7 @@ a {
 .a {
   /* left: 20px; */
   width:140px;
+  z-index: 20;
 }
 .a>.one {
   left:70px;
@@ -188,7 +192,7 @@ a {
 /* D */
 
 .d {
-  width: 160px;
+  width: 150px;
   left: 0px;
   z-index: 20;
 }
@@ -325,6 +329,85 @@ background: var(--negativeColor);
   z-index: 3;
 }
 
+/* G */
+
+.g {
+  width: 170px;
+  left: 40px;
+  z-index: 5;
+}
+
+.g>.circle {
+  width: 180px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: var(--color);
+}
+
+.g>.counter.two {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  background: var(--negativeColor);
+  top: 30px;
+  left: 20px;
+}
+
+.g>.counter.three {
+  height: 90px;
+  background: var(--negativeColor);
+  width: 90px;
+  left: 90px;
+  top: 10px;
+}
+
+.g>.middle {
+
+    height: 20px;
+    width: 90px;
+    left: 90px;
+    top: 90px;
+    background: var(--color);
+  }
+
+  /* H */
+
+  .h {
+    width: 80px;
+    z-index: 20;
+    left: 40px;
+  }
+
+  .h>.stem {
+    top: 12px;
+    height: 175px;
+    width: 20px;
+    left: 0px;
+    z-index: 10;
+  }
+
+  .h>.middle {
+    height: 20px;
+    width: 60px;
+    left: 20px;
+    top: 80px;
+    background: white;
+  }
+
+  .h:hover .middle{
+  	pointer-events: none;
+
+  }
+
+  .h>.stem2 {
+    top: 12px;
+    height: 175px;
+    width: 20px;
+    left: 80px;
+    z-index: 10;
+  }
+
 /* change our stroke width when a letter is hovered */
 
 
@@ -427,6 +510,26 @@ transition-duration: 0.5s;
 }
 
 .f:hover {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.g:hover {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.g:hover .counter.two {
+transform: scale(0);
+}
+
+/* .g:hover .middle {
+  transform: scaleX(2);
+} */
+
+.h:hover .stem {
   transform: matrix(1, -0.3, 0, 1, 0, 0);
 transition-duration: 0.5s;
   transition-duration: 0.5s;

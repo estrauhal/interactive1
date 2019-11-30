@@ -4,7 +4,7 @@
   --color: blue;
   --negativeColor: white;
   --alternateColor:red;
-  --baseKern: 50px;
+  --baseKern: 70px;
   --stemWidth: 20px;
 }
 
@@ -74,13 +74,14 @@ a {
 .a {
   /* left: 20px; */
   width:140px;
-	z-index: 2;
+	z-index: 20;
 }
 .a>.one {
   left:70px;
 }
 .a>.two {
   left:110px;
+  height: 186px;
 }
 .a>.three {
   left: 40px;
@@ -89,15 +90,16 @@ a {
 }
 .a>.four {
   top:-8px;
-  width:170px;
+  width:160px;
 }
 .a>.five {
   bottom:14px;
-  width:170px;
+  width:100px;
 }
 .a>.counter {
   height: 20px;
   background: var(--negativeColor);
+
 }
 
 /* B */
@@ -319,6 +321,86 @@ background: var(--negativeColor);
   z-index: 3;
 }
 
+/* G */
+
+.g {
+  width: 170px;
+  left: 40px;
+  z-index: 5;
+}
+
+.g>.circle {
+  width: 180px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: var(--color);
+}
+
+.g>.counter.two {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  background: var(--negativeColor);
+  top: 30px;
+  left: 20px;
+}
+
+.g>.counter.three {
+  height: 90px;
+  background: var(--negativeColor);
+  width: 90px;
+  left: 90px;
+  top: 10px;
+}
+
+.g>.middle {
+
+    height: 20px;
+    width: 90px;
+    left: 90px;
+    top: 90px;
+    background: var(--color);
+  }
+
+  /* H */
+
+  .h {
+    width: 80px;
+    z-index: 20;
+    left: 40px;
+  }
+
+  .h>.stem {
+    top: 12px;
+    height: 175px;
+    width: 20px;
+    left: 0px;
+    z-index: 10;
+  }
+
+  .h>.middle {
+    height: 20px;
+    width: 60px;
+    left: 20px;
+    top: 80px;
+    background: white;
+  }
+
+  .h:hover .middle{
+  	pointer-events: none;
+
+  }
+
+  .h>.stem2 {
+    top: 12px;
+    height: 175px;
+    width: 20px;
+    left: 80px;
+    z-index: 10;
+  }
+
+
 /* change our stroke width when a letter is hovered */
 
 
@@ -329,7 +411,7 @@ background: var(--negativeColor);
 
 .a:hover {
   --stemWidth: 50px;
-  transform: translate(-30px, -30px);
+  transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
 --color:red;
@@ -345,7 +427,7 @@ transition-duration: 0.5s;
 }
 
 .b:hover {
-transform: translate(-30px, -30px);
+transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
 }
@@ -356,7 +438,7 @@ transition-duration: 0.5s;
 
 
 .c:hover {
-  transform: translate(-30px, -30px);
+  transform: translate(-10px, -10px);
 	transition-duration: 0.5s;
 --color:red;
 	z-index: 20;
@@ -373,7 +455,7 @@ transition-duration: 0.5s;
 }
 
 .d:hover {
-  transform: translate(-30px, -30px);
+  transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
 
@@ -394,7 +476,7 @@ transition-duration: 0.5s;
 }
 
 .e:hover {
-  transform: translate(-30px, -30px);
+  transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
 
@@ -402,6 +484,7 @@ transition-duration: 0.5s;
 
 .f:hover .stem {
   transform: scaleX(2);
+  z-index: 40;
 }
 
 .f:hover .top {
@@ -414,7 +497,14 @@ transition-duration: 0.5s;
 }
 
 .f:hover {
-  transform: translate(-30px, -30px);
+  transform: translate(-10px, -10px);
+transition-duration: 0.5s;
+--color:red;
+
+}
+
+.g:hover {
+  transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
 
