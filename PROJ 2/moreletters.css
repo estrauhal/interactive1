@@ -1,0 +1,421 @@
+:root {
+  --fontHeight: 200px;
+  /* --color: url(https://www.designcuts.com/wp-content/uploads/2018/10/Iridescent-Abstract-Backgrounds-strip2.jpg); */
+  --color: blue;
+  --negativeColor: white;
+  --alternateColor:red;
+  --baseKern: 50px;
+  --stemWidth: 20px;
+}
+
+body {
+  background-image: url();
+}
+
+
+.fontBox {
+  background: var(--negativeColor);
+  height: 1000px;
+  width: 100%;
+  padding:50px;
+  overflow:hidden;
+}
+
+a {
+ color:red;
+}
+
+/* define some letter parts */
+
+.stem {
+  background: var(--color);
+  width:var(--stemWidth);
+  height: var(--fontHeight);
+}
+/*
+.leftLeaning {
+  transform:rotate(-20deg)
+} */
+
+.rightLeaning {
+  transform:rotate(20deg)
+}
+
+/* .crossBar {
+  background: var(--color);
+  height: var(--stemWidth);
+} */
+
+.counter {
+  transform-origin: center;
+  background: var(--negativeColor);
+}
+
+
+/* setup so our letters to have equal spacing */
+.rootLetter {
+  float:left;
+  position:relative;
+  padding-right:var(--baseKern);
+}
+
+.letter {
+  height:calc(var(--fontHeight) + 20px);
+}
+
+.letter * {
+  position:absolute;
+  /*border: 1px solid yellow;*/
+}
+
+/* positioning parts of letters */
+
+/* A */
+.a {
+  /* left: 20px; */
+  width:140px;
+	z-index: 2;
+}
+.a>.one {
+  left:70px;
+}
+.a>.two {
+  left:110px;
+}
+.a>.three {
+  left: 40px;
+  top: 110px;
+  width: 80px;
+}
+.a>.four {
+  top:-8px;
+  width:170px;
+}
+.a>.five {
+  bottom:14px;
+  width:170px;
+}
+.a>.counter {
+  height: 20px;
+  background: var(--negativeColor);
+}
+
+/* B */
+
+.b {
+  width:130px;
+  left: 0px;
+  z-index: 10;
+}
+
+.b>.stem {
+  top: 12px;
+  height: 175px;
+  width: 20px;
+  left: 0px;
+}
+
+.b>.top {
+  height: 60px;
+  width: 60px;
+  left: 20px;
+  top: 12px;
+  background: var(--color);
+
+  border-radius: 60px 60px 60px 60px;
+}
+
+.b>.two {
+  height: 120px;
+  width: 120px;
+  top: 70px;
+  left: 20px;
+  background: var(--color);
+
+  border-radius: 120px 120px 120px 120px;
+}
+
+.b>.counter.three {
+  height: 25px;
+  width: 25px;
+  left: 37px;
+  top: 30px;
+  border-radius: 60px 60px 60px 60px;
+}
+
+.b>.counter.four {
+  height: 80px;
+  width: 80px;
+  left: 40px;
+  top: 90px;
+  border-radius: 120px 120px 120px 120px;
+}
+
+/* C */
+
+.c {
+  width: 40px;
+  left: 0px;
+  z-index: 10;
+}
+
+.c>.circle {
+  width: 180px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: var(--color);
+}
+
+.c>.counter.two {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  top: 30px;
+  left: 20px;
+}
+
+.c>.counter.three {
+  height: 180px;
+  background: var(--negativeColor);
+  width: 90px;
+  left: 90px;
+  top: 10px;
+}
+
+
+/* D */
+
+.d {
+  width: 160px;
+  left: 0px;
+  z-index: 10;
+}
+
+.d>.circle {
+  width: 180px;
+  height: 180px;
+  top: 10px;
+  border-radius: 100px;
+  background: var(--color);
+}
+
+.d>.counter.two {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  top: 30px;
+  left: 20px;
+}
+
+.d>.stem {
+  height: 180px;
+  /* background: var(--negativeColor); */
+  width: 20px;
+  left: 70px;
+  top: 10px;
+  z-index: 30;
+}
+
+.d>.counter.three {
+  width: 70px;
+  height: 180px;
+z-index: 0;
+  top: 10px;
+  left: 0px;
+}
+
+
+/* E */
+
+.e {
+  width: 60px;
+  left: 40px;
+}
+
+.e>.stem {
+  top: 12px;
+  height: 175px;
+  width: 20px;
+  left: 0px;
+}
+
+.e>.top {
+  height: 20px;
+  width: 60px;
+  left: 20px;
+  top: 12px;
+  background: var(--color);
+
+}
+
+.e>.middle {
+  height: 20px;
+  width: 60px;
+  left: 20px;
+  top: 80px;
+  background: var(--color);
+}
+
+.e>.bottom {
+  height: 20px;
+  width: 60px;
+  left: 20px;
+  top: 167px;
+  background: var(--color);
+}
+
+/* F */
+
+.f {
+  width: 130px;
+  z-index: 0;
+  left: 80px;
+}
+
+.f>.stem {
+  top: 12px;
+  height: 175px;
+  width: 20px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+
+.f>.top {
+  height: 20px;
+  width: 60px;
+  left: 20px;
+  top: 12px;
+  z-index: 2;
+  background: var(--color);
+
+}
+
+.f>.middle {
+  height: 20px;
+  width: 60px;
+  left: 20px;
+  top: 80px;
+  background: var(--color);
+}
+
+/* .f>.counter{
+  width: 140px;
+  height: 140px;
+background: var(--alternateColor);
+  top: 100px;
+  left: 20px;
+  z-index: 3;
+} */
+
+.f>.counter2{
+  width: 140px;
+  height: 62px;
+background: var(--negativeColor);
+  top: -50px;
+  left: 0px;
+  z-index: 3;
+}
+
+/* change our stroke width when a letter is hovered */
+
+
+.letter * {
+  transition: all 300ms ease;
+
+}
+
+.a:hover {
+  --stemWidth: 50px;
+  transform: translate(-30px, -30px);
+transition-duration: 0.5s;
+--color:red;
+--color:red;
+
+}
+
+.b:hover .counter {
+  transform: scale(0);
+}
+
+.b:hover .stem {
+  transform: scaleX(2.5);
+}
+
+.b:hover {
+transform: translate(-30px, -30px);
+transition-duration: 0.5s;
+--color:red;
+}
+
+.c:hover .counter.two {
+    transform: scale(0);
+}
+
+
+.c:hover {
+  transform: translate(-30px, -30px);
+	transition-duration: 0.5s;
+--color:red;
+	z-index: 20;
+}
+
+.d:hover .stem {
+  transform: scaleX(2);
+
+}
+
+.d:hover .counter.two {
+    transform: scale(0);
+
+}
+
+.d:hover {
+  transform: translate(-30px, -30px);
+transition-duration: 0.5s;
+--color:red;
+
+}
+
+.e:hover .stem {
+  transform: scaleX(2);
+
+}
+
+.e:hover .bottom {
+	pointer-events: none;
+
+}
+
+.e:hover .middle {
+  transform: scaleY(7.7);
+}
+
+.e:hover {
+  transform: translate(-30px, -30px);
+transition-duration: 0.5s;
+--color:red;
+
+}
+
+.f:hover .stem {
+  transform: scaleX(2);
+}
+
+.f:hover .top {
+  transform: scaleY(5.8);
+}
+
+.f:hover .middle{
+	pointer-events: none;
+
+}
+
+.f:hover {
+  transform: translate(-30px, -30px);
+transition-duration: 0.5s;
+--color:red;
+
+}
