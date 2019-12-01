@@ -270,7 +270,7 @@ z-index: 0;
 /* F */
 
 .f {
-  width: 130px;
+  width: 140px;
   z-index: 0;
   left: 80px;
 }
@@ -324,7 +324,7 @@ background: var(--negativeColor);
 /* G */
 
 .g {
-  width: 170px;
+  width: 200px;
   left: 40px;
   z-index: 5;
 }
@@ -361,6 +361,7 @@ background: var(--negativeColor);
     left: 90px;
     top: 90px;
     background: var(--color);
+    border-radius: 0px 0px 10px 0px;
   }
 
   /* H */
@@ -384,7 +385,7 @@ background: var(--negativeColor);
     width: 60px;
     left: 20px;
     top: 80px;
-    background: white;
+    background: var(--color);
   }
 
   .h:hover .middle{
@@ -392,11 +393,21 @@ background: var(--negativeColor);
 
   }
 
-  .h>.stem2 {
+  .h>.counter {
     top: 12px;
     height: 175px;
     width: 20px;
     left: 80px;
+    background: var(--color);
+    z-index: 10;
+  }
+
+  .h>.counter2{
+    top: 8px;
+    height: 190px;
+    width: 60px;
+    left: -60px;
+    background: var(--negativeColor);
     z-index: 10;
   }
 
@@ -507,5 +518,30 @@ transition-duration: 0.5s;
   transform: translate(-10px, -10px);
 transition-duration: 0.5s;
 --color:red;
+
+}
+
+.g:hover .counter.two {
+    transform: scale(0);
+}
+
+.h:hover {
+  transform: translate(-10px, -10px);
+transition-duration: 0.5s;
+--color:red;
+
+}
+
+.h:hover .stem {
+  transform: scaleX(7);
+}
+
+.h:hover .counter{
+	pointer-events: none;
+
+}
+
+.h:hover .counter2{
+	pointer-events: none;
 
 }
