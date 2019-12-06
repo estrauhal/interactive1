@@ -1,16 +1,27 @@
 #family {
-	max-width: 100%;
-	max-height: 100%;
+margin-left: 10%;
+margin-right: 10%;
+	max-width: 80%;
+	/* max-height: 100%; */
 	background-image: url(https://media1.giphy.com/media/26xBD5cdpF8NifF1m/giphy.gif);
 	background-position: center;
 	background-size: 90%;
 	background-repeat: no-repeat;
 	z-index: -10;
 	/* position: absolute; */
+	margin-bottom: -70px;
 }
 
 body {
 background-color: #fff;
+}
+
+img {
+
+	margin-left: 10%;
+	margin-right: 10%;
+		max-width: 80%;
+
 }
 
 
@@ -53,11 +64,13 @@ a:hover {
   transition-duration: 0.2s;
 }
 
+
+
 .animation {
-	
+
 	max-height: 100%;
 	max-width: 100%;
 	margin-top: 50px;
-	max-height: 100%;
+	/* max-height: 100%; */
 
 }
