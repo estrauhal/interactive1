@@ -16,6 +16,7 @@ body {
 
 
 
+
 .header {
 /* font-weight: bold; */
 margin-top: 75px;
@@ -51,8 +52,8 @@ margin-top: 70px;
 background: var(--negativeColor);
 /* height: 1000px; */
 width: 0%;
-margin-left: 33%;
-margin-right: 33%;
+margin-left: 40%;
+/* margin-right: 33%; */
 /* padding:50px; */
 /* overflow:hidden; */
 animation: changeColor 6s;
@@ -580,7 +581,7 @@ background: var(--color);
 
 
 width: 130px;
-left: -4vh;
+left: -60px;
 z-index: 5;
 }
 
@@ -737,3 +738,34 @@ animation-direction: alternate-reverse;
 #supercali {
 	--color: white;
 }
+
+@media only screen and (max-width: 600px) {
+
+
+    #container {
+
+      transform: scale(0.6);
+    }
+
+
+  body {
+    align-content: center;
+    position: absolute;
+    overflow-x: hidden;
+    /* left: -50px; */
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  p {
+    font-size: 10pt;
+    /* padding-left: 0%; */
+    /* width: 50%; */
+    margin-right: 100px;
+    color: white;
+  }
+
+  .letter {
+    left: -40px;
+  }
+  }
