@@ -1,0 +1,63 @@
+#family {
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url(https://media1.giphy.com/media/26xBD5cdpF8NifF1m/giphy.gif);
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	z-index: -10;
+	/* position: absolute; */
+}
+
+body {
+background-color: #fff;
+}
+
+
+.header {
+  /* font-weight: bold; */
+  margin-top: 50px;
+  resize: both;
+  text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: black;
+  font-size: 14pt;
+	z-index: 10;
+
+}
+
+h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 24pt;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	z-index: 20;
+
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:hover {
+  color: #888;
+  transition-duration: 0.2s;
+}
+
+.animation {
+	
+	max-height: 100%;
+	max-width: 100%;
+	margin-top: 50px;
+	max-height: 100%;
+
+}
