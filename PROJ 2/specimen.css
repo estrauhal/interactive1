@@ -16,6 +16,7 @@ body {
 background-color: #fff;
 }
 
+
 img {
 
 	margin-left: 10%;
@@ -67,10 +68,21 @@ a:hover {
 
 
 .animation {
-
-	max-height: 100%;
-	max-width: 100%;
+	overflow: hidden;
+	/* max-height: 120%; */
+	width: 150%;
 	margin-top: 50px;
-	/* max-height: 100%; */
 
+
+
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
 }
