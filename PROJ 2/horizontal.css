@@ -6,67 +6,106 @@
 --alternateColor:cyan;
 --baseKern: 70px;
 --stemWidth: 20px;
+
 }
 
 body {
-/* padding-right: 0px; */
-/* background-color: var(--negativeColor); */
-}
+width: 5300px;
+overflow-x: hidden;
+position: absolute;
+/* overflow-x: scroll; */
+/* overflow-y: hidden; */
+/* transform: rotate(-90deg); */
+/* vertical-align: middle; */
+/* margin-left: 1000px; */
 
+
+
+}
 
 
 
 
 .header {
+  z-index: 90;
+
+
 /* font-weight: bold; */
-margin-top: 75px;
-resize: both;
-text-align: center;
+/* position: fixed; */
+margin-top: -20px;
+
+/* resize: both; */
+/* text-align: center; */
 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-color: black;
+
 font-size: 14pt;
+color: #000;
+}
+
+p {
+  z-index: 90;
+  position: fixed;
+  margin-left: 33%;
+  margin-right: 33%;
 
 }
+
 
 a:link {
-color: black;
+
+color: #f5f;
+/* mix-blend-mode: exclusion; */
 text-decoration: none;
 font-style: normal;
+
+animation: changeColor 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
 }
+
 a:visited {
-color: black;
+  color: #f5f;
+  /* mix-blend-mode: exclusion; */
 text-decoration: none;
 font-style: normal;
+
 }
 
 a:hover {
-color: #888;
+
+  /* mix-blend-mode: exclusion; */
+color: #aaa;
 transition-duration: 0.2s;
+
 }
 
 
-
 .fontBox {
+  background: var(--negativeColor);
+  animation: changeColor 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+
+
 
 margin-top: 70px;
 background: var(--negativeColor);
 /* height: 1000px; */
-width: 0%;
-margin-left: 40%;
+/* width: 0%; */
+
+margin-left: 51.5%;
+
 /* margin-right: 33%; */
 /* padding:50px; */
 /* overflow:hidden; */
-animation: changeColor 6s;
-animation-iteration-count: infinite;
-animation-direction: alternate-reverse;
-transform: scale(3);
+
+transform: scale(5.5);
+
 
 }
 
-#g {
-  margin-left: 10%;
-  margin-right: 10%;
-}
 
 a {
 color:red;
@@ -105,14 +144,31 @@ background: var(--negativeColor);
 float:left;
 position:relative;
 padding-right:var(--baseKern);
+
+
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to th  is element */
+-moz-animation: example1 10s ease-in-out infinite;
+-webkit-animation: example1 10s ease-in-out infinite;
+animation-direction: alternate-reverse;
+
 }
 
 .letter {
+  margin-top: -23px;
 height:calc(var(--fontHeight) + 20px);
+
+
+
 }
 
 .letter * {
 position:absolute;
+
+
+
 /*border: 1px solid yellow;*/
 }
 
@@ -423,8 +479,8 @@ top: 186px;
 
 .c {
 width: 60px;
-left: -20px;
-z-index: 10;
+left: -10px;
+z-index: -10;
 }
 
 .c>.circle {
@@ -453,9 +509,9 @@ top: 10px;
 
 /* A */
 .a {
-left: -70px;
-width: 25px;
-z-index: 70;
+left: -55px;
+width: 50px;
+z-index: 100;
 }
 .a>.one {
 left:70px;
@@ -577,11 +633,11 @@ background: var(--color);
 /* G */
 
 .g {
-  position: absolute;
+  /* position: absolute; */
 
 
 width: 130px;
-left: -60px;
+left: 0px;
 z-index: 5;
 }
 
@@ -712,18 +768,15 @@ transition: all 300ms ease;
 
 }
 
-.letter:hover {
-/* transform: translate(-15px, -15px); */
+/* .letter:hover {
+
 transition: 1s;
-/* transform: scale(1.2); */
+
 z-index: 50;
 animation: changeColor 1s;
 animation-iteration-count: infinite;
 animation-direction: alternate-reverse;
-
-
-
-}
+} */
 
 @keyframes changeColor {
   0%   { filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
@@ -731,41 +784,43 @@ animation-direction: alternate-reverse;
   100% { filter: hue-rotate(0deg)contrast(100%)saturate(100%); }
 }
 
-#super {
---color: white;
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(300px); }
+ 100% { -webkit-transform: translateX(000px); }
+
 }
 
-#supercali {
-	--color: white;
-}
+
 
 @media only screen and (max-width: 600px) {
 
 
-    #container {
-
-      transform: scale(0.6);
-    }
-
-
-  body {
-    align-content: center;
-    position: absolute;
-    overflow-x: hidden;
-    /* left: -50px; */
-    margin-left: -10%;
-    margin-right: -10%;
-  }
-
   p {
+    position: fixed;
     font-size: 10pt;
-    /* padding-left: 0%; */
-    /* width: 50%; */
-    margin-right: 100px;
+    margin-left: 15%;
+    width: 50%;
+    /* margin-right: 100px; */
     color: white;
+
   }
+
+
 
   .letter {
     left: -40px;
   }
   }
+
+  @media only screen and (max-width: 800px) {
+
+
+    p {
+      position: fixed;
+      /* font-size: 10pt; */
+      margin-left: 20%;
+      width: 50%;
+      /* margin-right: 100px; */
+      color: white;
+
+    }
