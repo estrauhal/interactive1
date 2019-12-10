@@ -9,8 +9,9 @@
 
 }
 
+
 body {
-width: 5500px;
+width: 7000px;
 overflow-x: hidden;
 position: absolute;
 /* overflow-x: scroll; */
@@ -18,11 +19,10 @@ position: absolute;
 /* transform: rotate(-90deg); */
 /* vertical-align: middle; */
 /* margin-left: 1000px; */
-
+z-index: -30;
 
 
 }
-
 
 
 
@@ -32,10 +32,11 @@ position: absolute;
 
 /* font-weight: bold; */
 /* position: fixed; */
-margin-top: -20px;
+
+/* margin-top: -20px; */
 
 /* resize: both; */
-/* text-align: center; */
+text-align: center;
 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
 font-size: 14pt;
@@ -90,18 +91,25 @@ transition-duration: 0.2s;
 
 
 
+
+
+
+
+transform: scale(5.5);
+
+
+
+
 margin-top: 70px;
 background: var(--negativeColor);
 /* height: 1000px; */
-/* width: 0%; */
-
-margin-left: 51.5%;
-
-/* margin-right: 33%; */
+width: 80%;
+margin-left: 140px;
+margin-right: 0px;
 /* padding:50px; */
 /* overflow:hidden; */
 
-transform: scale(5.5);
+
 
 
 }
@@ -152,13 +160,14 @@ transform:translateX(100%);
 /* Apply animation to th  is element */
 -moz-animation: example1 10s ease-in-out infinite;
 -webkit-animation: example1 10s ease-in-out infinite;
-animation-direction: alternate-reverse;
+animation-direction: alternate;
 
 }
 
 .letter {
   margin-top: 20px;
 height:calc(var(--fontHeight) + 20px);
+/* filter: invert(100%); */
 
 }
 
@@ -674,53 +683,6 @@ top: 10px;
   border-radius: 0px 0px 10px 0px;
 }
 
-/* J */
-
-.j {
-top: -2px;
-width: 70px;
-z-index: 20;
-left: 0px;
-}
-
-.j>.stem {
-top: 12px;
-height: 130px;
-width: 100px;
-left: 0px;
-z-index: 10;
-}
-
-.j>.middle {
-height: 130px;
-width: 80px;
-left: 0px;
-top: 12px;
-background: var(--negativeColor);
-}
-
-.j>.counter {
-
-width: 100px;
-height: 100px;
-top: 95px;
-border-radius: 100px;
-
-left: 0px;
-background: var(--color);
-z-index: 0;
-}
-
-.j>.counter2{
-width: 60px;
-height: 60px;
-top: 114px;
-border-radius: 65px;
-left: 19.5px;
-background: var(--negativeColor);
-z-index: 10;
-}
-
 /* T */
 
 .t {
@@ -766,6 +728,8 @@ transition: all 300ms ease;
 
 }
 
+
+
 /* .letter:hover {
 
 transition: 1s;
@@ -793,7 +757,7 @@ animation-direction: alternate-reverse;
 @media only screen and (max-width: 600px) {
 
 
-  p {
+  /* p {
     position: fixed;
     font-size: 10pt;
     margin-left: 15%;
@@ -801,7 +765,7 @@ animation-direction: alternate-reverse;
     /* margin-right: 100px; */
     color: white;
 
-  }
+  } */
 
 
 

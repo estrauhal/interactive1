@@ -3,7 +3,7 @@
 --color: url(https://www.designcuts.com/wp-content/uploads/2018/10/Iridescent-Abstract-Backgrounds-strip2.jpg);
 /* --color: pink; */
 --negativeColor: white;
---alternateColor:cyan;
+--alternateColor: #8ff;
 --baseKern: 70px;
 --stemWidth: 20px;
 }
@@ -710,7 +710,7 @@ animation-direction: alternate-reverse;
 
     #container {
 
-      transform: scale(0.6);
+      /* transform: scale(0.6); */
     }
 
 
@@ -728,10 +728,10 @@ animation-direction: alternate-reverse;
 
 
   p {
-    font-size: 10pt;
+    font-size: 12pt;
     /* padding-left: 0%; */
     /* width: 50%; */
-    margin-right: 100px;
+    /* margin-right: 100px; */
     color: white;
   }
 
@@ -770,3 +770,5 @@ animation-direction: alternate-reverse;
   animation-direction: alternate-reverse;
 
   }
+
+}

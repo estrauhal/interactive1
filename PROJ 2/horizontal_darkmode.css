@@ -11,7 +11,7 @@
 }
 
 body {
-width: 5500px;
+width: 7000px;
 overflow-x: hidden;
 position: absolute;
 /* overflow-x: scroll; */
@@ -89,7 +89,7 @@ transition-duration: 0.2s;
   animation: changeColor 6s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-
+/* margin-left: 1000px; */
 
 
 
@@ -98,7 +98,7 @@ background: var(--negativeColor);
 /* height: 1000px; */
 /* width: 0%; */
 
-margin-left: 51.5%;
+margin-left: 75%;
 
 /* margin-right: 33%; */
 /* padding:50px; */
@@ -155,7 +155,7 @@ transform:translateX(100%);
 /* Apply animation to th  is element */
 -moz-animation: example1 10s ease-in-out infinite;
 -webkit-animation: example1 10s ease-in-out infinite;
-animation-direction: alternate-reverse;
+animation-direction: alternate;
 
 }
 
@@ -676,53 +676,6 @@ top: 10px;
   top: 90px;
   background: var(--color);
   border-radius: 0px 0px 10px 0px;
-}
-
-/* J */
-
-.j {
-top: -2px;
-width: 70px;
-z-index: 20;
-left: 0px;
-}
-
-.j>.stem {
-top: 12px;
-height: 130px;
-width: 100px;
-left: 0px;
-z-index: 10;
-}
-
-.j>.middle {
-height: 130px;
-width: 80px;
-left: 0px;
-top: 12px;
-background: var(--negativeColor);
-}
-
-.j>.counter {
-
-width: 100px;
-height: 100px;
-top: 95px;
-border-radius: 100px;
-
-left: 0px;
-background: var(--color);
-z-index: 0;
-}
-
-.j>.counter2{
-width: 60px;
-height: 60px;
-top: 114px;
-border-radius: 65px;
-left: 19.5px;
-background: var(--negativeColor);
-z-index: 10;
 }
 
 /* T */

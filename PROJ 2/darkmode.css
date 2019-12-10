@@ -17,6 +17,7 @@ background-color: black;
 
 .header {
 /* font-weight: bold; */
+
 margin-top: 75px;
 resize: both;
 text-align: center;
@@ -708,7 +709,7 @@ animation-direction: alternate-reverse;
 
     #container {
 
-      transform: scale(0.6);
+      /* transform: scale(0.6); */
     }
 
 
@@ -726,10 +727,10 @@ animation-direction: alternate-reverse;
 
 
   p {
-    font-size: 10pt;
+    font-size: 12pt;
     /* padding-left: 0%; */
     /* width: 50%; */
-    margin-right: 100px;
+    /* margin-right: 100px; */
     color: white;
   }
 
@@ -768,3 +769,5 @@ animation-direction: alternate-reverse;
   animation-direction: alternate-reverse;
 
   }
+
+}
