@@ -32,11 +32,10 @@ z-index: -30;
 
 /* font-weight: bold; */
 /* position: fixed; */
-
-/* margin-top: -20px; */
+margin-top: -20px;
 
 /* resize: both; */
-text-align: center;
+/* text-align: center; */
 font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
 font-size: 14pt;
@@ -87,29 +86,22 @@ transition-duration: 0.2s;
   animation: changeColor 6s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-
-
-
-
-
-
-
-
-transform: scale(5.5);
-
+/* margin-left: 1000px; */
 
 
 
 margin-top: 70px;
 background: var(--negativeColor);
 /* height: 1000px; */
-width: 80%;
-margin-left: 140px;
-margin-right: 0px;
+/* width: 0%; */
+
+margin-left: 75%;
+
+/* margin-right: 33%; */
 /* padding:50px; */
 /* overflow:hidden; */
 
-
+transform: scale(5.5);
 
 
 }
@@ -728,8 +720,6 @@ transition: all 300ms ease;
 
 }
 
-
-
 /* .letter:hover {
 
 transition: 1s;
@@ -757,7 +747,7 @@ animation-direction: alternate-reverse;
 @media only screen and (max-width: 600px) {
 
 
-  /* p {
+  p {
     position: fixed;
     font-size: 10pt;
     margin-left: 15%;
@@ -765,7 +755,7 @@ animation-direction: alternate-reverse;
     /* margin-right: 100px; */
     color: white;
 
-  } */
+  }
 
 
 
