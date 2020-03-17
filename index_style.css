@@ -13,16 +13,19 @@ body {
 a:hover {
 color: #fff;
 background-color: #f00;
-text-decoration:
+
 }
 
 p {
-  color: #111
+  color: #111;
+  background-color: #fff;
+  z-index: 300;
 
 /* this is just some font style crap */
 
 }
 img {
+  margin-top: 35vh;
   max-width: 75%;
   /* margin-top: -50px; */
   min-width: 75%;
@@ -55,7 +58,6 @@ img {
     0%   { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
     50%  { filter: hue-rotate(360deg)contrast(500%)saturate(10000%); }
     100% { filter: hue-rotate(0deg)contrast(100%)saturate(0%); }
-
 }
 
 body {
@@ -81,6 +83,9 @@ h1 {
   color: #000;
   letter-spacing: -2px;
   line-height: 90%;
+  position: fixed;
+  z-index: -300;
+
 }
 
 h2 {
