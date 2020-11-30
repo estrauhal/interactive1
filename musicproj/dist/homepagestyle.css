@@ -129,9 +129,9 @@ a:hover {
   opacity: 0.7;
 }
 
-a:visited {
+a:active a:link, a:visited {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 p {
